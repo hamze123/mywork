@@ -1,0 +1,45 @@
+/* /* 
+/*Set the table color, border, and spacing...*/
+table{
+	color:#06425C;
+	border-spacing: 2px;
+	border: 3px solid black;
+	-webkit-border-radius: 25px 25px 0 0;
+	border-radius: 0 0 25px 25px;
+	margin: 0 auto;
+}
+/*Alternate colors between even and odd weeks*/
+
+/*To curve the bottom, we need to curve the
+row and the element.  And each element needs to 
+curve a different corner.*/
+
+
+
+/*Format the caption
+Use border-radius for just some corners*/
+ th{
+	text-transform: uppercase;
+	background-color: #666666;
+	color:#ffffff;
+	font-size: 150%;
+	
+}
+
+
+
+/*Set the size and alignment for elements*/
+ td:{
+	width:75px;
+	height:75px;
+	text-align:center;
+
+}
+
+
+/*Format any holidays*/
+tr{
+	margin:0;
+	padding:0;
+	background-color: #51A39D;
+}
